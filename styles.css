@@ -60,3 +60,11 @@
     grid-area: 1 / 2 / 3 / 3;
 
 }
+
+.nav ul {
+  display: flex;
+  gap: 1rem;    /* espaciado de ul */
+  list-style: none;
+  padding: 0 1rem 1rem;
+  margin: 0;
+}
