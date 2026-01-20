@@ -106,9 +106,11 @@ body {
   padding: 1rem;
 }
 
-.meta,
-.context {
-  font-size: 0.9rem;
-  color: var(--color-text2)
+.nav a {
+  text-decoration: none;
+  color: var(--color-h1-sombra);
+  position: relative;
 }
+
+
 
