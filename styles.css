@@ -129,5 +129,5 @@ body {
 .aside {
   background: var(--color-bg2);
   padding: 1rem;
-  
+  border-top: 1px solid var(--color-border);
 }
