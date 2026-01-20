@@ -6,10 +6,11 @@
 
 :root {
   --color-bg: #d9e5f6;
-  --color-bg2: #6a9075;
+  --color-bg2: #b2dba5;
   --color-bg3: #ffffff;
   --color-border: #5050e7;
   --color-text: #161616;
+  --color-accent: #af8364;
   /* --color-text: #1f2933;
   --color-accent: #2563eb;
   --color-border: #d1d5db; */
@@ -38,7 +39,7 @@
     width: 100%;
     height: 100%;
     /* background-image: url(./imagenes/Jin.jpg); */
-    filter: grayscale(0.5);
+    /* filter: grayscale(0.5); */
     background-attachment: fixed;
     font-family: "Jim Nightshade", cursive;
     font-weight: 400;
@@ -120,3 +121,4 @@ body {
   border-bottom: 1px solid var(--color-border);
   /* padding: 1rem; */
 }
+
