@@ -165,6 +165,14 @@ body {
   width: 100%;
 }
 
+.estado,
+.contexto {
+  font-size: 0.9rem;
+  
+}
+
+
+
 /* print */
 @media print {
   nav,
@@ -182,14 +190,3 @@ body {
     font-size: 0.8rem;
   }
 }
-
-.item,
-.project {
-  background: var(--color-bg3);
-  border: 1px solid var(--color-border);
-  margin-bottom: 1rem;
-  border-radius: 8px;
-  padding: 1rem;
-  transition: transform 0.2s;
-}
-
