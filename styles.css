@@ -7,7 +7,7 @@
 :root {
   --color-bg: #bec9da;
   --color-border: #5050e7;
-  --color-text: #151313;
+  --color-text: #491515;
   /* --color-text: #1f2933;
   --color-accent: #2563eb;
   --color-border: #d1d5db; */
@@ -110,6 +110,7 @@ main {
 
 body {
   background: var(--color-bg);
+  color: var(--color-text);
   
 }
 
