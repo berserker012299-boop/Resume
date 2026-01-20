@@ -6,6 +6,7 @@
 
 :root {
   --color-bg: #d9e5f6;
+  --color-bg2: #ffffff;
   --color-border: #5050e7;
   --color-text: #161616;
   /* --color-text: #1f2933;
@@ -126,5 +127,5 @@ body {
 }
 
 .aside {
-  background: white;
+  
 }
