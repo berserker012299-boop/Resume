@@ -180,7 +180,10 @@ body {
   margin-bottom: 1rem;
   transition: transform 0.2s;
 }
-
+.item:hover,
+.project:hover {
+  transform: translateY(-4px);
+}
 
 
 
