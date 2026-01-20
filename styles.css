@@ -150,3 +150,23 @@ body {
 .project ul li a:focus::after {
   width: 100%;
 }
+
+/* print */
+@media print {
+  nav,
+  .footer {
+    display: none;
+  }
+
+  body {
+    background: white;
+  }
+
+  /* ::after crea texto extra solo en impresión
+attr(href) lee el valor del atributo href del link
+Resultado en papel: */
+  a::after {
+    content: " (" attr(href) ")";
+    font-size: 0.8rem;
+  }
+}
