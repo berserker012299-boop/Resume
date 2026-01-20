@@ -6,12 +6,13 @@
 
 
 :root {
-  --color-bg: #d9e5f6;
-  --color-bg2: #faf0f9;
-  --color-bg3: #ffffff;
-  --color-border: #b7e0d2;
-  --color-text: #161616;
-  --color-accent: #0da978;
+  --color-bg: #ebc800;  /* body */
+  --color-bg2: #7edcb0; /* header y aside */
+  --color-bg3: #ffffff; /* items y articles */
+  --color-border: #000000;
+  --color-text: #000000;
+  --color-text2: #696464;
+  --color-accent: #06a46a;
   --fuente: "Zalando Sans SemiExpanded", sans-serif;
   /* --color-text: #1f2933;
   --color-accent: #2563eb;
@@ -137,5 +138,6 @@ body {
 .meta,
 .context {
   font-size: 0.9rem;
-  
+  color: var(--color-text2)
 }
+
