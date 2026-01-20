@@ -117,7 +117,7 @@ body {
   background: white;
   border: 1px solid var(--color-border);
   margin-bottom: 1rem;
-
+  border-radius: 8px;
 
   
 
