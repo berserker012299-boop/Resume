@@ -1,10 +1,10 @@
 :root {
   --color-bg: #ebc800;  /* body */
   --color-bg2: #000000; /* header y aside */
-  --color-bg3: #ffffff; /* items y articles */
+  --color-item-project: #ffffff; /* items y articles */
   --color-border: #000000;
   --color-text: #000000;
-  --color-metas: #555;
+  --color-estado-contexto: #555;
   --color-accent: #00c07a;
   --color-h1-sombra: white;
   --fuente: "Zalando Sans SemiExpanded", sans-serif;
@@ -168,8 +168,19 @@ body {
 .estado,
 .contexto {
   font-size: 0.9rem;
-  
+  color: var(--color-estado-contexto);
 }
+
+/* animacion */
+.item,
+.project {
+  background: var(--color-item-project);
+}
+
+
+
+
+
 
 
 
