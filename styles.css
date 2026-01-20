@@ -209,6 +209,7 @@ body {
 /* foto de perfil */
 .perfil {
   display: flex;
+  align-items: center;
   
 }
 
