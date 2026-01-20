@@ -112,6 +112,7 @@ body {
   
 }
 
+.item,
 .project {
   background: white;
   border: 1px solid var(--color-border);
