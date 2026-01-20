@@ -129,6 +129,7 @@ body {
   width: 100%;
 }
 
+/* mismo pseudoelemento para links de proyectos */
 .project ul li a {
   position: relative;
   color: var(--color-text);
@@ -151,6 +152,29 @@ body {
   width: 100%;
 }
 
+/* mismo pseudoelemento para links de proyectos */
+.aside ul li a {
+  position: relative;
+  color: var(--color-h1-sombra);
+  text-decoration: none;
+}
+
+.aside ul li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0;
+  height: 2px;
+  background: var(--color-accent);
+  transition: width 0.3s;
+}
+
+.aside ul li a:hover::after,
+.aside ul li a:focus::after {
+  width: 100%;
+}
+
 /* print */
 @media print {
   nav,
@@ -162,9 +186,7 @@ body {
     background: white;
   }
 
-  /* ::after crea texto extra solo en impresión
-attr(href) lee el valor del atributo href del link
-Resultado en papel: */
+  /*attr(href) lee el valor del atributo href del link*/
   a::after {
     content: " (" attr(href) ")";
     font-size: 0.8rem;
