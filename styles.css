@@ -175,8 +175,10 @@ body {
 .item,
 .project {
   background: var(--color-item-project);
+  padding: 1rem;
 }
-
+  
+ 
 
 
 
