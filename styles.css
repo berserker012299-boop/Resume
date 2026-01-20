@@ -68,3 +68,12 @@
   padding: 0 1rem 1rem;
   margin: 0;
 }
+
+/* body responsive */
+@media (min-width: 768px) {
+  body {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+  }
+
+}
