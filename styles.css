@@ -106,6 +106,7 @@ body {
 }
 
 .aside {
+  color: var(--color-h1-sombra);
   background: var(--color-bg2);
   padding: 1rem;
   border-top: 1px solid var(--color-border);
