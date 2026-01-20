@@ -86,12 +86,12 @@ body {
   /* padding: 1rem; */
 }
 
-.role {
+.rol {
   color: var(--color-accent);
   font-weight: 900;
 }
 
-.profile {
+.perfil {
   padding: 1rem;
 }
 
