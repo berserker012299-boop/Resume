@@ -177,10 +177,9 @@ body {
   background: var(--color-item-project);
   padding: 1rem;
   border-radius: 8px;
+  margin-bottom: 1rem;
+  transition: transform 0.2s;
 }
-  
- 
-
 
 
 
