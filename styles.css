@@ -7,11 +7,11 @@
 
 :root {
   --color-bg: #d9e5f6;
-  --color-bg2: #b2dba5;
+  --color-bg2: #ffecfd;
   --color-bg3: #ffffff;
-  --color-border: #5050e7;
+  --color-border: #b7e0d2;
   --color-text: #161616;
-  --color-accent: #af8364;
+  --color-accent: #0da978;
   --fuente: "Zalando Sans SemiExpanded", sans-serif;
   /* --color-text: #1f2933;
   --color-accent: #2563eb;
@@ -36,7 +36,7 @@
 .header {
     /* grid-column-start:1;
     grid-column-end:3; */
-    padding :10px;
+    /* padding :10px; */
     /* border : 3px solid black; */
     width: 100%;
     height: 100%;
@@ -127,5 +127,9 @@ body {
 
 .role {
   color: var(--color-accent);
-  font-weight: 500;
+  font-weight: 900;
+}
+
+.profile {
+  padding: 1rem;
 }
