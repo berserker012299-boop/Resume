@@ -201,6 +201,22 @@ body {
     content: " (" attr(href) ")";
     font-size: 0.8rem;
   }
+
+  /* forzar los colores al imprimir del header y aside */
+    header,
+  .aside {
+    background: white !important;
+    color: black !important;
+    border: none;
+  }
+
+  header h1,
+  header p,
+  .aside h2,
+  .aside li,
+  .aside a {
+    color: black !important;
+  }
 }
 
 /* foto de perfil */
